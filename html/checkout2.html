@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Sweetaste 甜點電商-會員登入</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="../style/all.css">
+</head>
+
+<body>
+  <header>
+    <div class="fixed-top">
+      <div class="flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white  shadow-sm">
+        <nav class="navbar  navbar-light navbar-expand-lg container d-flex justify-content-between">
+          <button class="navbar-toggler menu" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <img class="d-none d-md-block" src="../images/icon/logo-all-dark.svg" height="40" class="d-inline-block align-top"
+              alt="">
+            <div class="container d-md-none ml-5">
+              <img class="d-md-none mr-3" src="../images/icon/logotype-sm-dark.svg" width="120" class="d-inline-block align-top"
+                alt="">
+            </div>
+          </a>
+          <a href="cart.html"> <i class="fas fa-shopping-cart d-md-none ml-3"></i></a>
+          <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+            <ul class="navbar-nav mt-2">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">首頁</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="product.html">甜點</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">登入</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-none d-md-block" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ -->
+  <!-- main -->
+  <!-- ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ -->
+  <div class="container main">
+    <div class="row justify-content-center checkout">
+      <!-- 左－運送資料 -->
+      <div class="col-md-6 col-sm-12">
+        <div class="deliver">
+          <div class="step">
+            <ul class="progressbar">
+              <li class="active"></li>
+              <li class="active"></li>
+              <li class=""></li>
+            </ul>
+          </div>
+          <form class="needs-validation" novalidate="">
+            <div class="deliver-content">
+              <h4 class="mb-3">付款</h4>
+              <div class="js-form-message mb-3">
+                <label class="h6 small d-block text-uppercase">
+                  信用卡卡號
+                </label>
+                <div class="js-focus-state input-group u-form">
+                  <input class="form-control form-control-lg" type="text" required="" placeholder="9012-3456-7890-1234"
+                    aria-label="9012-3456-7890-1234" data-msg="輸入您的信用卡號" data-error-class="u-has-error"
+                    data-success-class="u-has-success">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text border-0"><i class="fas fa-credit-card"></i></span>
+                  </div>
+                </div>
+              </div>
+
+              <label for="firstName">持卡人姓名</label>
+              <div class="row">
+                <div class="col-6 mb-3">
+                  <input type="text" class="form-control form-control-lg" id="firstName" placeholder="王" value=""
+                    required="">
+                </div>
+                <div class="col-6 mb-3">
+
+                  <input type="text" class="form-control form-control-lg" id="lastName" placeholder="小明" value=""
+                    required="">
+                </div>
+              </div>
+              <label>有效期限</label>
+              <div class="row">
+                <div class="col-6 mb-3">
+                  <select class="custom-select custom-select-lg d-block w-100" id="month" required="">
+                    <option value="">月</option>
+                    <option>2</option>
+                  </select>
+                </div>
+                <div class="col-6 mb-3">
+                  <select class="custom-select custom-select-lg d-block w-100" id="year" required="">
+                    <option value="">年</option>
+                    <option>10</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6  mb-3">
+                  <label class=" d-block text-uppercase">
+                    背面末三碼
+                  </label>
+                  <div class="">
+                    <input class="form-control custom-select-lg" type="text" required="" placeholder="123" aria-label="123"
+                      data-msg="請輸入卡片背面末三碼" data-error-class="u-has-error" data-success-class="u-has-success">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="text-center deliver-button">
+              <button type="button" class="btn rounded-0 btn-lg btn-block  btn-sw5 text-sw1" onclick="javascript:location.href='checkout3.html'">下一步</button>
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+      <!-- 右列 -->
+      <div class="col-md-4 d-none d-md-block detail">
+        <!-- 右－ 訂單明細 -->
+        <div class="cart_shopAmount">
+          <h4 class="title">訂單摘要</h4>
+          <ul class="list-group">
+            <li class="d-flex justify-content-between">
+              <span>小計</span>
+              <span>NT$2700</span>
+            </li>
+            <li class=" d-flex justify-content-between">
+              <span>運費</span>
+              <span>NT$300</span>
+            </li>
+
+            <li class=" d-flex justify-content-between">
+              <strong>總計</strong>
+              <strong>NT$3000</strong>
+            </li>
+          </ul>
+        </div>
+        <!-- 右－購物清單 -->
+        <div class="cart_shopList mb-5">
+          <h4 class="title">購物清單</h4>
+          <ul class="list-group ">
+            <li class=" d-flex justify-content-start">
+              <div class="cart_shopList-img01"></div>
+              <div class="list-content align-self-center">
+                <h6 class="">焦糖馬卡龍（2）</h6>
+                <strong>NT$ 900</strong>
+              </div>
+            </li>
+            <li class=" d-flex justify-content-start">
+              <div class="cart_shopList-img02"></div>
+              <div class="list-content align-self-center">
+                <h6 class="">焦糖馬卡龍（2）</h6>
+                <strong>NT$ 900</strong>
+              </div>
+            </li>
+            <li class=" d-flex justify-content-start">
+              <div class="cart_shopList-img03"></div>
+              <div class="list-content align-self-center">
+                <h6 class="">焦糖馬卡龍（2）</h6>
+                <strong>NT$ 900</strong>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ -->
+  <!-- footer -->
+  <!-- ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ -->
+  <footer>
+    <div class="container-fluid  bg-sw1 p-2 pt-4 pb-3">
+      <div class="container">
+        <div class="row pl-2 pr-2 justify-content-center">
+          <div class="col-lg-5  col-sm-12  media  mb-4 align-items-center">
+            <img class=" rounded-circle m-3" src="../images/icon/logo-light.svg" height="40" alt="">
+            <div class="media-body">
+              <h4 class="text-light pt-2">訂閱你我的甜蜜郵件</h4>
+            </div>
+          </div>
+          <div class="col-lg-5 col-sm-12 pt-3 pb-3">
+            <form>
+              <label class="sr-only " for="inlineFormInputGroup">E-Mail</label>
+              <div class="input-group input-group-lg border-0">
+                <div class="input-group-prepend">
+                  <div class="input-group-text bg-sw6 rounded-0 border-0"><i class="fas fa-envelope"></i></div>
+                </div>
+                <input type="text" class="form-control bg-sw6 border-0" id="inlineFormInputGroup" placeholder="E-Mail">
+                <button type="submit" class="btn btn-sw5 pl-3 pr-3 border-0"><i class="fas fa-arrow-right"></i></button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid  bg-sw6">
+      <div class="container">
+        <div class="row pl-2 pr-2 pt-4 justify-content-center">
+          <div class="col-sm"><img class="mt-2" src="../images/icon/logotype.svg" alt="" height="26">
+            <div class="footer_left_p">
+              <p>07-1234-5678 </p>
+              <p>sweetaste@email.com</p>
+              <p> 800 高雄市新興區幸福路 520 號</p>
+            </div>
+          </div>
+          <div class="d-none d-md-block"><img class="float-right" src="../images/icon/sm-今天是個吃甜點的好日子.svg" width="60"
+              alt=""></div>
+        </div>
+        <div class="row pl-2 pr-2 justify-content-center  align-items-center">
+          <div class="col">
+            <ul class="social-icons">
+              <li class="d-inline"><a href="#"><img src="../images/icon/ic-line@.svg" alt=""></a></li>
+              <li class="d-inline"><a href="#"><img src="../images/icon/ic-facebook.svg" alt=""></a></li>
+            </ul>
+          </div>
+          <div class=" copyright">
+            <p class="mt-2">© 2018 Sweetaste* All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </footer>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
