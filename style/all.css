@@ -10914,6 +10914,10 @@ figure.snip1091:hover h4 {
   margin-bottom: 20px;
 }
 
+.card .btn-lg, .card .btn-group-lg > .btn {
+  padding: 1rem 1rem;
+}
+
 .cardBadge {
   width: 100%;
   position: absolute;
