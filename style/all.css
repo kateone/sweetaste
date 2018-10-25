@@ -10933,7 +10933,7 @@ figure.snip1091:hover h4 {
 }
 
 .info_index_1 {
-  background: url(/images/kv/info1.jpg) no-repeat;
+  background: url(../images/kv/info1.jpg) no-repeat;
   background-position: center;
   background-size: cover;
   height: 256px;
@@ -10961,7 +10961,7 @@ figure.snip1091:hover h4 {
 }
 
 .info_index_2 {
-  background: url(/images/kv/info2.jpeg) no-repeat;
+  background: url(../images/kv/info2.jpeg) no-repeat;
   background-position: center;
   background-size: cover;
   height: 256px;
@@ -10982,7 +10982,7 @@ figure.snip1091:hover h4 {
 }
 
 .info_index_3 {
-  background: url(/images/kv/info3.jpg) no-repeat;
+  background: url(../images/kv/info3.jpg) no-repeat;
   background-position: center;
   background-size: cover;
   height: 256px;
@@ -11003,7 +11003,7 @@ figure.snip1091:hover h4 {
 }
 
 .kvIMG-index {
-  background: url(/images/kv/index1s.jpg) no-repeat center center;
+  background: url(../images/kv/index1s.jpg) no-repeat center center;
   background-size: cover;
   width: 940px;
   height: 496px;
@@ -11011,7 +11011,7 @@ figure.snip1091:hover h4 {
 }
 
 .kvIMG-product {
-  background: url(/images/kv/product1.jpg) no-repeat center center;
+  background: url(../images/kv/product1.jpg) no-repeat center center;
   background-size: cover;
   width: 940px;
   height: 496px;
@@ -11215,7 +11215,7 @@ figure.snip1091:hover h4 {
 }
 
 .cart_list .list-style-photo-1 {
-  background: url(/images/kv/cart_1.jpg) no-repeat;
+  background: url(../images/kv/cart_1.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   width: 110px;
@@ -11223,7 +11223,7 @@ figure.snip1091:hover h4 {
 }
 
 .cart_list .list-style-photo-2 {
-  background: url(/images/kv/cart_2.jpg) no-repeat;
+  background: url(../images/kv/cart_2.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   width: 110px;
@@ -11231,7 +11231,7 @@ figure.snip1091:hover h4 {
 }
 
 .cart_list .list-style-photo-3 {
-  background: url(/images/kv/cart_3.jpg) no-repeat;
+  background: url(../images/kv/cart_3.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   width: 110px;
@@ -11702,7 +11702,7 @@ figure.snip1091:hover h4 {
 }
 
 .checkout .detail .cart_shopList-img01 {
-  background: url(/images/kv/cart_1.jpg) no-repeat;
+  background: url(../images/kv/cart_1.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   width: 120px;
@@ -11713,7 +11713,7 @@ figure.snip1091:hover h4 {
 }
 
 .checkout .detail .cart_shopList-img02 {
-  background: url(/images/kv/cart_2.jpg) no-repeat;
+  background: url(../images/kv/cart_2.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   width: 120px;
@@ -11721,7 +11721,7 @@ figure.snip1091:hover h4 {
 }
 
 .checkout .detail .cart_shopList-img03 {
-  background: url(/images/kv/cart_3.jpg) no-repeat;
+  background: url(../images/kv/cart_3.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   width: 120px;
@@ -11762,7 +11762,7 @@ figure.snip1091:hover h4 {
 }
 
 .checkout .kvIMG-checkout {
-  background: url(/images/kv/checkout.jpg) no-repeat center center;
+  background: url(../images/kv/checkout.jpg) no-repeat center center;
   background-size: cover;
   width: 940px;
   height: 460px;
