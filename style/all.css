@@ -11162,6 +11162,10 @@ figure.snip1091:hover h4 {
 }
 
 @media (max-width: 575.98px) {
+  .main {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
   .info_index {
     margin-top: -10px;
   }
@@ -11172,9 +11176,6 @@ figure.snip1091:hover h4 {
   .kvIMG-product,
   .kvIMG-index {
     height: 277px;
-  }
-  .main {
-    margin-top: 0px;
   }
   .product-sidebar {
     margin: 0 -10px;
