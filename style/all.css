@@ -10793,6 +10793,10 @@ header li {
   font-weight: bold;
 }
 
+.navbar {
+  padding: 0.5rem 0;
+}
+
 @media (max-width: 575.98px) {
   li {
     margin-left: 0px;
@@ -11104,7 +11108,7 @@ figure.snip1091:hover h4 {
 }
 
 .main {
-  margin-top: 40px;
+  padding-top: 40px;
 }
 
 .porduct-page {
@@ -11161,12 +11165,16 @@ figure.snip1091:hover h4 {
   .info_index {
     margin-top: -10px;
   }
+  .kvIMG-product {
+    margin-top: 90px;
+    margin-bottom: 0px;
+  }
   .kvIMG-product,
   .kvIMG-index {
     height: 277px;
   }
   .main {
-    margin-top: -10px;
+    margin-top: 0px;
   }
   .product-sidebar {
     margin: 0 -10px;
@@ -11179,7 +11187,7 @@ figure.snip1091:hover h4 {
 }
 
 .cart {
-  margin-top: 130px;
+  margin-top: 100px;
 }
 
 .cart .title {
@@ -11340,7 +11348,7 @@ figure.snip1091:hover h4 {
 
 @media (max-width: 575.98px) {
   .cart {
-    margin-top: 100px;
+    margin-top: 90px;
   }
   .cart_summary {
     background-color: #fff;
@@ -11498,7 +11506,7 @@ figure.snip1091:hover h4 {
 
 @media (max-width: 575.98px) {
   .login {
-    margin: 100px -15px 60px;
+    margin: 90px -15px 60px;
     width: 380px;
   }
   .login .input-box {
@@ -11537,7 +11545,7 @@ figure.snip1091:hover h4 {
 }
 
 .checkout {
-  margin: 130px auto 0;
+  margin: 100px auto 0;
 }
 
 .checkout .deliver {
@@ -11774,7 +11782,7 @@ figure.snip1091:hover h4 {
   width: 940px;
   height: 460px;
   position: relative;
-  margin-top: -30px;
+  margin: 0px 0 50px;
 }
 
 .checkout .success {
@@ -11859,13 +11867,16 @@ figure.snip1091:hover h4 {
 
 @media (max-width: 575.98px) {
   .checkout {
-    margin-top: -10px;
+    margin-top: 90px;
   }
   .checkout .deliver {
     margin: 0 -20px;
   }
+  .checkout .deliver .nav-item {
+    margin: 0;
+  }
   .checkout .kvIMG-checkout {
-    margin: -10px -10px 60px;
+    margin: 0px -10px 60px;
   }
   .checkout .kvIMG-checkout .success {
     width: 100%;
